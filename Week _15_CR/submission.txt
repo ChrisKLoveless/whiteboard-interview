@@ -1,15 +1,8 @@
-==OBJECTIVES==
-Ask clarifying questions?
+==Group==
 
-Write down inputs and outputs?
 
-Consider edge cases?	
+==Prompt==
 
-Use technical language correctly?	
-
-Explain their solution clearly, including summarizing the code from input to output?	
-
-Correctly solve the problem?	
 
 ============================================================================================
 
