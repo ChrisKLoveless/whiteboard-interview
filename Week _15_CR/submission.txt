@@ -1,11 +1,51 @@
 ==Group==
-
+Chris 
+David
+Yoonis
 
 ==Prompt==
 
+Prompt2
 
 ============================================================================================
 
+//alg to remove duplicates
+//no filter()
+//input: [7, 9,"hi",12,"hi",7,53]
+//output: [7, 9,"h1", 12, 53]
+//fx removeDuplicates(array) => array;
+
+//Without Recursion================================================
+```
+let input = [7, 9,"hi",12,"hi",7,53];
+
+const removeDuplicates = (array) => {
+  let outArray = [];
+  array.forEach(element => {
+    if(!outArray.includes(element)) {
+      outputArray.push(element);
+    }
+    else {
+      outArray;
+    }
+  });
+  return outArray;
+}
+console.log(removeDuplicates(input));
+
+```
+//Recursive (Attempt)===================================================
+
+const removeDuplatesRecursive = (array, output = []) {
+  if(array.length === 0) {
+    return
+  }
+  if(array[0] !== array[1]) {
+    let newArray = array.shift();
+    output = output.push(array[0])
+    removeDuplicatesRecursive(newArray, output)
+  }
+}
 
 
 
